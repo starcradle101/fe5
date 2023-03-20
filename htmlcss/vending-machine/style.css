@@ -34,10 +34,7 @@ p {
   display: block;
   width: 386px;
   height: 164.12px;
-  margin-bottom: 68px;
-  /* on mobile
-  width: 166px;
-  height: 71.12px; */
+  margin: 0px auto 68px auto;
 }
 
 .main-container {
