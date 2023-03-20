@@ -1,5 +1,11 @@
+:root {
+  --main-color-emphasized: #6327FE;
+  --main-color: #EAE8FE;
+
+}
+
 body {
-  background: #EAE8FE;
+  background: var(--main-color);
 }
 
 .banner {
