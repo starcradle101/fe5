@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vending Machine</title>
-    <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
@@ -71,8 +70,38 @@
       </div>
 
       <div class="inventory-container">
-        <div class="inventory-money"></div>
-        <div class="inventory-cola"></div>
+        <div class="inventory-money">
+          <div class="money-in-hand">
+            <p>소지금:</p>
+            <p>25,000 원</p>
+          </div>
+        </div>
+        <div class="inventory-cola">
+          <p class="cola-in-hand">획득한 음료</p>
+          <div class="inventory-list">
+            <div class="list-item-cola">
+              <img src="./img/cola-red.png" alt="original cola">
+              <p>Original_Cola</p>
+              <div class="cola-count">1</div>
+            </div>
+            <div class="list-item-cola">
+              <img src="./img/cola-green.png" alt="green cola">
+              <p>Green_Cola</p>
+              <div class="cola-count">2</div>
+            </div>
+            <div class="list-item-cola">
+              <img src="./img/cola-orange.png" alt="green cola">
+              <p>Orange_Cola</p>
+              <div class="cola-count">1</div>
+            </div>
+            <div class="list-item-cola">
+              <img src="./img/cola-violet.png" alt="green cola">
+              <p>Violet_Cola</p>
+              <div class="cola-count">5</div>
+            </div>
+          </div>
+          <p class="total-price">총금액 : 9,000원</p>
+        </div>
       </div>
     </div>
   </body>
