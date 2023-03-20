@@ -175,7 +175,6 @@ p {
   height: 46px;
   margin-bottom: 6px;
   background: #FFFFFF;
-  justify-content: space-between;
   box-sizing: border-box;
   padding: 8px;
   border-radius: 5px;
@@ -186,6 +185,13 @@ p {
   margin: 0;
   width: 18px;
   height: 33px;
+}
+
+.selected-cola > p {
+  display: flex;
+  align-items: center;
+  width: 73px;
+  margin: 0px 20px 0px 10px;
 }
 
 .cola-count {
