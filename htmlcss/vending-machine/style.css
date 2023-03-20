@@ -12,8 +12,27 @@ body {
   display: block;
   width: 386px;
   height: 164.12px;
-  margin: 0 auto;
+  margin: 0 auto 68px auto;
   /* on mobile
   width: 166px;
   height: 71.12px; */
+}
+
+.main-container {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+
+.menu-container {
+  width: 360px;
+  height: 360px;
+  box-shadow: inset 0 0 10px red;
+  background: #FFFFFF;
+}
+
+.inventory-container {
+  width: 360px;
+  height: 360px;
+  box-shadow: inset 0 0 10px red;
 }
