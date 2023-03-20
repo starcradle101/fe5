@@ -13,4 +13,7 @@ body {
   width: 386px;
   height: 164.12px;
   margin: 0 auto;
+  /* on mobile
+  width: 166px;
+  height: 71.12px; */
 }
