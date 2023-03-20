@@ -46,7 +46,6 @@ p {
   justify-content: center;
 }
 
-
 /* 왼쪽 UI */
 .menu-container {
   width: 360px;
@@ -292,4 +291,33 @@ p {
   font-size: 1.2rem;
   text-align: right;
   margin-top: 6px;
+}
+
+@media (max-width: 360px) {
+  body {
+    background: #FFFFFF;
+  }
+
+  .banner {
+    width: 166px;
+    height: 71.12px;
+    margin-bottom: 0px;
+  }
+
+  .main-container {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .menu-cola {
+    margin-top: 18px;
+  }
+
+  .menu-process {
+    margin-bottom: 11px;
+  }
+
+  .inventory-money {
+    margin-bottom: 11px;
+  }
 }
